@@ -8,7 +8,7 @@ public class CalculatorTest {
   private static final double DELTA = 0.001;
 
   @Test
-  public void testAdd() {
+  public void testAdds() {
     assertEquals(Calculator.add(1, 2), 3.0, DELTA);
     assertEquals(Calculator.add(1.0, 2.0), 3.0, DELTA);
     assertEquals(Calculator.add(0, 2.0), 2.0, DELTA);
